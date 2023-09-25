@@ -12,6 +12,7 @@ const notyf = new Notyf({
     y: "top",
   },
 });
+
 function App() {
   const [color, setColor] = useState("");
   const [error, setError] = useState(false);
@@ -57,7 +58,7 @@ function App() {
       </div>
       <div className="colors-section">
         {colors.map((color, i) => {
-          return <SingleColor key={i} {...colors} hexColor={color.hex} />;
+          return <SingleColor key={i} {...color} hexColor={color.hex} />;
         })}
       </div>
     </>
