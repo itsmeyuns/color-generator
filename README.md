@@ -20,8 +20,8 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ColorPaletteGenerator.git
-   cd ColorPaletteGenerator
+   git clone https://github.com/itsmeyuns/color-generator.git
+   cd color-generator
    ```
 
 2. Install the dependencies:
